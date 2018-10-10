@@ -22,7 +22,7 @@ sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
 #sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
-sudo pacman -S --noconfirm --needed xfburn
+#sudo pacman -S --noconfirm --needed xfburn
 #sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
@@ -31,6 +31,7 @@ echo "Installing category Development"
 
 #sudo pacman -S --noconfirm --needed atom
 sudo pacman -S --noconfirm --needed mousepad
+sudo pacman -S --noconfirm --needed sublime-text
 #sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
 
@@ -47,10 +48,11 @@ echo "Installing category Graphics"
 #sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
 #sudo pacman -S --noconfirm --needed gnome-font-viewer
-sudo pacman -S --noconfirm --needed gpick
+#sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
+sudo pacman -S --noconfirm --needed nomacs
 #sudo pacman -S --noconfirm --needed pinta
-sudo pacman -S --noconfirm --needed ristretto
+#sudo pacman -S --noconfirm --needed ristretto
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
@@ -79,7 +81,7 @@ sudo pacman -S --noconfirm --needed vlc
 echo "Installing category Office"
 
 sudo pacman -S --noconfirm --needed evince
-sudo pacman -S --noconfirm --needed evolution
+#sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
 sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
@@ -112,6 +114,7 @@ sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
 sudo pacman -S --noconfirm --needed hardinfo
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed htop
+sudo pacman -S --noconfirm --needed iftop
 sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed lsb-release
 sudo pacman -S --noconfirm --needed mlocate
