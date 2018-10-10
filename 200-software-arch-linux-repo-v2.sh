@@ -20,19 +20,18 @@ echo "Installing category Accessories"
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
-sudo pacman -S --noconfirm --needed gnome-screenshot
 #sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
 sudo pacman -S --noconfirm --needed xfburn
-sudo pacman -S --noconfirm --needed variety
+#sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
 
 echo "Installing category Development"
 
-sudo pacman -S --noconfirm --needed atom
-sudo pacman -S --noconfirm --needed geany
-sudo pacman -S --noconfirm --needed meld
+#sudo pacman -S --noconfirm --needed atom
+sudo pacman -S --noconfirm --needed mousepad
+#sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
@@ -47,7 +46,7 @@ echo "Installing category Graphics"
 
 #sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
-sudo pacman -S --noconfirm --needed gnome-font-viewer
+#sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
@@ -56,12 +55,12 @@ sudo pacman -S --noconfirm --needed ristretto
 
 echo "Installing category Internet"
 
-sudo pacman -S --noconfirm --needed chromium
+#sudo pacman -S --noconfirm --needed chromium
 #sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
-sudo pacman -S --noconfirm --needed transmission-cli
-sudo pacman -S --noconfirm --needed transmission-gtk
+#sudo pacman -S --noconfirm --needed transmission-cli
+sudo pacman -S --noconfirm --needed qbittorrent
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
@@ -82,7 +81,7 @@ echo "Installing category Office"
 sudo pacman -S --noconfirm --needed evince
 sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
-#sudo pacman -S --noconfirm --needed libreoffice-fresh
+sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Other"
