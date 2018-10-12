@@ -33,14 +33,14 @@ sudo pacman -S arcolinux-config-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
 #sudo pacman -S arcolinux-faces-git --noconfirm --needed
 sudo pacman -S arcolinux-fonts-git --noconfirm --needed
-sudo pacman -S arcolinux-geany-git --noconfirm --needed
+#sudo pacman -S arcolinux-geany-git --noconfirm --needed
 sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 sudo pacman -S arcolinux-local-git --noconfirm --needed
 sudo pacman -S arcolinux-mirrorlist-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
-sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
+#sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-awesome --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-bspwm --noconfirm --needed
@@ -52,7 +52,7 @@ sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-pipemenus-git --noconfirm --needed
 #sudo pacman -S arcolinux-plank-git --noconfirm --needed
 #sudo pacman -S arcolinux-plank-themes-git --noconfirm --needed
-sudo pacman -S arcolinux-polybar-git --noconfirm --needed
+#sudo pacman -S arcolinux-polybar-git --noconfirm --needed
 sudo pacman -S arcolinux-rofi-git --noconfirm --needed
 sudo pacman -S arcolinux-rofi-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-root-git --noconfirm --needed
@@ -61,7 +61,7 @@ sudo pacman -S arcolinux-slimlock-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-themes-git --noconfirm --needed
-sudo pacman -S arcolinux-variety-git --noconfirm --needed
+#sudo pacman -S arcolinux-variety-git --noconfirm --needed
 sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
 #sudo pacman -S arcolinux-xfce4-panel-profiles-git --noconfirm --needed
 sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
@@ -83,10 +83,10 @@ echo "####     Software from ArcoLinux 3party Repository           ####"
 echo "################################################################"
 echo "Retry if it times out - large files to download"
 
-sudo pacman -S --noconfirm --needed discord
+#sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed dropbox
 #sudo pacman -S --noconfirm --needed insync
-sudo pacman -S --noconfirm --needed spotify
+#sudo pacman -S --noconfirm --needed spotify
 
 echo "################################################################"
 echo "####     Software from ArcoLinux 3party Repository installed       ####"

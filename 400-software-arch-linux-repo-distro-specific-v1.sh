@@ -51,8 +51,9 @@ sudo pacman -S lxappearance --noconfirm --needed
 sudo pacman -S lxrandr --noconfirm --needed
 sudo pacman -S nitrogen --noconfirm --needed
 sudo pacman -S qt4 --noconfirm --needed
+sudo pacman -S qt5ct --noconfirm --needed
 sudo pacman -S rofi --noconfirm --needed
-sudo pacman -S polybar --noconfirm --needed
+sudo pacman -S arcolinux-polybar-git --noconfirm --needed
 sudo pacman -S thunar --noconfirm --needed
 sudo pacman -S volumeicon  --noconfirm --needed
 sudo pacman -S w3m --noconfirm --needed

@@ -30,8 +30,7 @@ sudo pacman -S --noconfirm --needed redshift
 echo "Installing category Development"
 
 #sudo pacman -S --noconfirm --needed atom
-sudo pacman -S --noconfirm --needed mousepad
-sudo pacman -S --noconfirm --needed sublime-text
+#sudo pacman -S --noconfirm --needed mousepad
 #sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
 
@@ -62,7 +61,6 @@ echo "Installing category Internet"
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
 #sudo pacman -S --noconfirm --needed transmission-cli
-sudo pacman -S --noconfirm --needed qbittorrent
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
@@ -74,8 +72,8 @@ echo "Installing category Multimedia"
 sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
-#sudo pacman -S --noconfirm --needed smplayer
-sudo pacman -S --noconfirm --needed vlc
+sudo pacman -S --noconfirm --needed smplayer
+#sudo pacman -S --noconfirm --needed vlc
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Office"
@@ -129,7 +127,7 @@ sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
 #sudo pacman -S --noconfirm --needed terminator
-sudo pacman -S --noconfirm --needed termite
+#sudo pacman -S --noconfirm --needed termite
 sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
