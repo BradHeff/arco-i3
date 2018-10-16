@@ -20,6 +20,7 @@ echo "AUR - DESKTOP SPECIFIC APPLICATIONS "
 sh AUR-DS/install-python-pywal-v*.sh
 
 sh AUR/install-yad-v*.sh
+sh AUR/install-polybar-v*.sh
 
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
