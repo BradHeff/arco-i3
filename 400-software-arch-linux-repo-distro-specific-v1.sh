@@ -49,7 +49,7 @@ sudo pacman -S gmrun --noconfirm --needed
 sudo pacman -S imagemagick --noconfirm --needed
 sudo pacman -S lxappearance --noconfirm --needed
 sudo pacman -S lxrandr --noconfirm --needed
-sudo pacman -S nitrogen --noconfirm --needed
+#sudo pacman -S nitrogen --noconfirm --needed
 sudo pacman -S qt4 --noconfirm --needed
 sudo pacman -S qt5ct --noconfirm --needed
 sudo pacman -S rofi --noconfirm --needed
