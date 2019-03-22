@@ -22,7 +22,7 @@ sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
 #sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
-#sudo pacman -S --noconfirm --needed xfburn
+sudo pacman -S --noconfirm --needed xfburn
 #sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
@@ -57,7 +57,7 @@ sudo pacman -S --noconfirm --needed nomacs
 echo "Installing category Internet"
 
 #sudo pacman -S --noconfirm --needed chromium
-#sudo pacman -S --noconfirm --needed filezilla
+sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
 #sudo pacman -S --noconfirm --needed transmission-cli
@@ -72,8 +72,8 @@ echo "Installing category Multimedia"
 sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
-sudo pacman -S --noconfirm --needed smplayer
-#sudo pacman -S --noconfirm --needed vlc
+#sudo pacman -S --noconfirm --needed smplayer
+sudo pacman -S --noconfirm --needed vlc
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Office"
@@ -93,7 +93,7 @@ echo "Installing category System"
 sudo pacman -S --noconfirm --needed arc-gtk-theme
 #sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed baobab
-#sudo pacman -S --noconfirm --needed bleachbit
+sudo pacman -S --noconfirm --needed bleachbit
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode

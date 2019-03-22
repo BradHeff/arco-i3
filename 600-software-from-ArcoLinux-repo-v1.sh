@@ -52,7 +52,7 @@ sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 #sudo pacman -S arcolinux-pipemenus-git --noconfirm --needed
 #sudo pacman -S arcolinux-plank-git --noconfirm --needed
 #sudo pacman -S arcolinux-plank-themes-git --noconfirm --needed
-#sudo pacman -S arcolinux-polybar-git --noconfirm --needed
+sudo pacman -S arcolinux-polybar-git --noconfirm --needed
 sudo pacman -S arcolinux-rofi-git --noconfirm --needed
 sudo pacman -S arcolinux-rofi-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-root-git --noconfirm --needed
@@ -85,7 +85,7 @@ echo "Retry if it times out - large files to download"
 
 #sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed dropbox
-#sudo pacman -S --noconfirm --needed insync
+sudo pacman -S --noconfirm --needed insync
 #sudo pacman -S --noconfirm --needed spotify
 
 echo "################################################################"
